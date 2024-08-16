@@ -5,16 +5,17 @@
     --cor-de-fundo: #00030C;
 }
 
-body {
-    background-color: var(--cor-de-fundo);
-}
-
-body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
-}
-
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundol);
+}
+
+body {
+    background-color: var(--branco-principal);
+    color: var(--branco-principal);
+    font-family: var(--branco-principal);
 }
