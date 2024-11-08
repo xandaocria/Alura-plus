@@ -2,8 +2,9 @@
     --branco-principal: #ffffff;
     --cinza-secundario: #c0c0c0;
     --botao-azul: #165bf7;
-    --cor-de-fundo: #00030c;
+    --cor-de-fundo: #0a0a0a;
     --fonte-principal: "Inter";
+    --botão-azul-efeito: rgba(228, 218, 238, 0.699);
 }
 
 *{
@@ -127,4 +128,14 @@ body{
     color: var(--cinza-secundario);
     font-size: 14px;
 
+}
+.lista_link a:hover{
+    color: blue;
+}
+.lista_link a:active{
+    color: rgb(2, 163, 238);
+}
+.container_botão:hover{
+    background-color: var(--botão-azul-efeito);
+    color: var(--cor-de-fundo);
 }
